@@ -4,7 +4,7 @@ import time
 
 from data_utils import create_dataset, create_dataloader
 from utils import init_seed
-from model import LightGCNPseudo
+from model import LightGCN
 from trainer import Trainer
 
 
@@ -49,7 +49,7 @@ train_data = create_dataloader(train_dataset, args.batch_size, training=True)
 test_data = create_dataloader(test_users, args.test_batch_size, training=False)  # only user id for test dataloader
 
 # get the model
-model = LightGCNPseudo(args, dataset).to(args.device)
+model = LightGCN(args, dataset).to(args.device)
 
 # get the trainer
 trainer = Trainer(args, model)

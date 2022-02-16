@@ -5,9 +5,9 @@ from torch.nn.init import xavier_normal_, xavier_uniform_, constant_
 import scipy.sparse as sp
 
 
-class LightGCNPseudo(nn.Module):
+class LightGCN(nn.Module):
     def __init__(self, args, dataset):
-        super(LightGCNPseudo, self).__init__()
+        super(LightGCN, self).__init__()
 
         self.args = args
 
