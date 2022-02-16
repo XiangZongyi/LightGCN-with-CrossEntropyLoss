@@ -4,7 +4,7 @@ A PyTorch implementation of LightGCN with cross entropy loss.
 
 # Usage
 
-1. Download the processed dataset from [RecBole]([Dataset Download — RecBole 0.2.0 documentation](https://recbole.io/docs/user_guide/data/dataset_download.html)) (RecBole is a unified, comprehensive and efficient framework developed based on PyTorch).
+1. Download the processed dataset from [RecBole](https://recbole.io/docs/user_guide/data/dataset_download.html) (RecBole is a unified, comprehensive and efficient framework developed based on PyTorch).
 
 2. Train the model and predict.
 
