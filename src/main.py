@@ -29,7 +29,7 @@ parser.add_argument('--n_layers', type=int, default=2, help="the graph convoluti
 parser.add_argument('--device', type=str, default='cuda', help="")
 parser.add_argument('--gpu_id', type=int, default=0, help="")
 parser.add_argument('--neg_prefix', type=str, default='neg_', help="")
-parser.add_argument('--tensorboard_dir', type=str, default='./tensorboard', help='the path to save tensorboard')
+parser.add_argument('--tensorboard_dir', type=str, default='./tensorboard_log', help='the path to save tensorboard')
 
 args = parser.parse_args()
 
